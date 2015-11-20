@@ -1,4 +1,4 @@
-FROM google/dart
+FROM google/dart:1.13.0
 
 RUN curl -sL https://deb.nodesource.com/setup | bash -
 RUN apt-get install -y wget curl gcc libxml2-dev libxslt-dev libcurl4-openssl-dev libreadline6-dev libc6-dev libssl-dev make build-essential zlib1g-dev openssh-server git-core libyaml-dev postfix libpq-dev libicu-dev xvfb unzip chromium nodejs build-essential
